@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "e:\\Users\\ChewDK\\Documents\\Selenium\\venv\\Scripts\\python.exe",
+    "python.testing.pytestArgs": [
+        "pytest"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+}
