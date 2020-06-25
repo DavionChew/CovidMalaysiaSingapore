@@ -10,4 +10,5 @@ Please follow the tutorial to setup Selenium first
 Those code are written in Python
 
 Main file: readCov19.py
+
 After that manual copy data from file_name.csv to CoV_19.csv
