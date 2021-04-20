@@ -1,8 +1,10 @@
-_pycache_/
+__pycache__/
 .pytest_cache/
 .vscode/
 pytest/
 venv/
 *cpp
-*log
-test*
+debug*
+geckodriver*
+testerror.py
+test.py

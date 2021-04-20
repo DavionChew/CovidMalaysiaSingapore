@@ -28,10 +28,10 @@ last_df = csv.tail(1)
 curr_arr = np.array(last_df)
 print(curr_arr[0])
 
-curr_TotalMalaysia = curr_arr[0][0]
+curr_TotalMalaysia = int(curr_arr[0][0])
 print(curr_TotalMalaysia)
 
-currTotalSingapore = curr_arr[0][1]
+currTotalSingapore = int(curr_arr[0][1])
 print(currTotalSingapore)
 
 #lastest_df = csv
