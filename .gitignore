@@ -1,0 +1,8 @@
+_pycache_/
+.pytest_cache/
+.vscode/
+pytest/
+venv/
+*cpp
+*log
+test*
