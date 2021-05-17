@@ -12,7 +12,7 @@ def GetLatestMalaysiaData_func():
 
     try:
         element = WebDriverWait(driver,10).until(
-            EC.presence_of_element_located((By.XPATH,"//tr[12]/td"))
+            EC.presence_of_element_located((By.XPATH,"//tr[11]/td"))
         )
         confirmCaseMalaysia = element.text
         confirmCaseMalaysia = confirmCaseMalaysia.split('[')
