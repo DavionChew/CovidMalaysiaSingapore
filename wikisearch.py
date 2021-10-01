@@ -15,8 +15,8 @@ def GetLatestMalaysiaData_func():
             EC.presence_of_element_located((By.XPATH,"//tr[11]/td"))
         )
         confirmCaseMalaysia = element.text
-        #confirmCaseMalaysia = confirmCaseMalaysia.split('[')
-        confirmCaseMalaysia = confirmCaseMalaysia.split(' ')
+        confirmCaseMalaysia = confirmCaseMalaysia.split('[')
+        #confirmCaseMalaysia = confirmCaseMalaysia.split(' ')
         confirmCaseMalaysia = confirmCaseMalaysia[0].replace(',','')
         print("Confirmed Case in Malaysia: " + confirmCaseMalaysia)
     finally:
