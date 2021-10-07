@@ -28,7 +28,7 @@ def GetLatestSingaporeData_func():
     driver.get("https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Singapore")
     try:
         element2 = WebDriverWait(driver,10).until(
-            EC.presence_of_element_located((By.XPATH,"//tr[9]/td"))
+            EC.presence_of_element_located((By.XPATH,"//tr[8]/td"))
         )
         confirmCaseSg = element2.text
         confirmCaseSg = confirmCaseSg.split('[')
